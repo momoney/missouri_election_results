@@ -156,7 +156,7 @@ processCountyResultsQueue.drain = function() {
   jsonResults = JSON.stringify(results, null, 2);
   var fileName = getElectionName(electionValue);
 
-  fs.writeFile('./'+fileName+'.json', jsonResults);
+  fs.writeFile('./results/'+fileName+'.json', jsonResults);
 }
 
 
