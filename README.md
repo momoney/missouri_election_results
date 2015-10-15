@@ -3,4 +3,4 @@
 
 Results are stored in structured data by county
 
-An open source project under the MIT License
+All data is from sos.mo.gov and is considered in the public domain
